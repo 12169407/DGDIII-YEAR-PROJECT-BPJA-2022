@@ -9,8 +9,14 @@ public class ThirdPersonPlayerScript : MonoBehaviour
     public float speed = 6f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
+    int randNum = 0;
+    private Animation anim;
 
     // Update is called once per frame
+    void Start()
+    {
+        anim = gameObject.GetComponent<Animation>();
+    }
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -28,7 +34,11 @@ public class ThirdPersonPlayerScript : MonoBehaviour
         }
 
         //if the player clicks a button to attack
-        if((Input.GetKey(KeyCode.Mouse0))
-            { }
+        if(Input.GetKey(KeyCode.Mouse0))
+        {
+            //Debug.Log("wagwaaaaaaaaaaann!");
+            Random.Range(1, 3);
+
+        }
     }
 }

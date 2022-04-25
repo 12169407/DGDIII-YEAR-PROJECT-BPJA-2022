@@ -33,6 +33,7 @@ public class ThirdPersonPlayerScript : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
 
+<<<<<<< Updated upstream:DGDIII-YEAR-PROJECT-BPJA/Assets/Game Prefabs/Scripts/ThirdPersonPlayerScript.cs
         //if the player clicks a button to attack
         if(Input.GetKey(KeyCode.Mouse0))
         {
@@ -40,5 +41,8 @@ public class ThirdPersonPlayerScript : MonoBehaviour
             Random.Range(1, 3);
 
         }
+=======
+        
+>>>>>>> Stashed changes:DGDIII-YEAR-PROJECT-BPJA/Assets/Scripts/ThirdPersonPlayerScript.cs
     }
 }

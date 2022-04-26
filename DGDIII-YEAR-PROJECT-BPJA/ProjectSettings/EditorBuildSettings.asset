@@ -4,13 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/GameScene.unity
-    guid: 1f11d1991ba7fad48acaca541d68aac8
+  m_Scenes: []
   m_configObjects:
-<<<<<<< Updated upstream
     com.unity.input.settings: {fileID: 11400000, guid: 2eb4a51334f8d624e98942659d204d6c, type: 2}
-=======
-    com.unity.input.settings: {fileID: 11400000, guid: 6d51c4ab0398abb44a8ddd9ce25ce90d, type: 2}
->>>>>>> Stashed changes
